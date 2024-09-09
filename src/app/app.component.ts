@@ -8,4 +8,8 @@ import { PasswordGeneratorComponent } from './password-generator/password-genera
   standalone: true,
   imports: [PasswordGeneratorComponent]
 })
-export class AppComponent {}
+export class AppComponent {
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+}
