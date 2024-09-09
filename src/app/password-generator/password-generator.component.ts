@@ -17,7 +17,7 @@ export class PasswordGeneratorComponent {
   includeSymbols = true;
   generatedPassword = '';
   strengthLabel = 'MEDIUM';
-  strengthBars = [true, true, true, false]; // Adjust this array to represent the strength
+  strengthBars = [true, true, true, false]; 
 
   generatePassword() {
     const numbers = '0123456789';
